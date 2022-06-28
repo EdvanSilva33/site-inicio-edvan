@@ -1,0 +1,549 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+.main{
+    background-image: url('../img/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px; 
+    padding: 20px 0 80px 0;  
+}
+.center{
+    display: flex;
+    max-width: 1200px;
+    padding: 0 2%;
+     margin: 0 auto;
+     flex-wrap: wrap;
+}
+.logo-menu{
+    margin-top: -15px;
+    width: 50%;
+}
+.logo-menu a{
+    font-size: 25px;
+    text-decoration: none;
+    color:#FFDD33;
+}
+.logo-menu a h1{
+    font-weight: normal;
+}
+.logo-menu a h1 b{
+    color:  #fff;
+}
+.menu{
+   padding-top: 20px;
+width: 100%;
+    display: flex;
+  
+}
+.iten-menu{
+   width: 50%;
+   text-align: right;
+}
+
+.iten-menu a{
+    
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding-bottom: 6px;
+}
+.iten-menu a:hover{
+    border-bottom: 3px solid #FFDD33;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    background-color:#0F3FD3;
+}
+.iten-menu a.btn:hover{
+    border: 0;
+}
+.mokup{
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding-top: 100px;
+    text-align: center;
+}
+.mokup h1{
+    font-weight: normal;
+    font-size: 50px;
+}
+.mokup img{
+    max-width: 100%;
+}
+.propaganda{
+    width: 100%;
+    display: flex;
+    
+}
+
+.propaganda .center img{
+    width: calc(100% / 5);
+}
+
+.porque{
+    background-color:#FBFCFE;
+    padding-top: 100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+   
+}
+.porque h1{
+    font-size: 50px;
+}
+.porque p{
+    color: #515a64;
+}
+.blocos{
+    padding-top: 100px;
+     width: 100%;
+    
+}
+
+.coneteine-icon{  
+    text-align: left;
+    max-width: 1200px;
+display:inline-flex;
+    
+}
+
+.icones{
+
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px #2426721C;
+    margin-right: 2%;
+    padding: 10px 20px;
+    width: 31%;
+}
+.icones img{
+    display: block;
+}
+.icones p{
+    color: rgb(97, 96, 96);
+    font-size: 14px;
+    text-align:left;
+    padding:25px;
+}
+.icones h3{
+    padding: 0px 0px 0px 25px;
+}
+.banner{
+    margin: 100px 30px;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 350px; 
+    padding: 20px 0 80px 0;  
+     background-image: url('../img/banner.svg');
+     text-align: center;
+     color: #fff;
+}
+
+.banner h1{
+    padding-top: 50px;
+    font-weight: normal;
+    font-size: 50px;
+}
+.banner button{
+     margin-top: 50px;
+    font-weight: bold;
+    color: #0F3FD3;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: #FFDD33;
+    border: 0;
+    cursor: pointer;
+}
+.beneficios{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+}
+.beneficios img{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+
+.checklist{
+    margin-top: 10px;
+    padding: 20px;
+    width: 50%;
+}
+.checklist h2{
+    font-size: 50px;
+}
+.checklist img{
+    display: inline-block;
+    width: 85px;
+    vertical-align: middle;
+}
+.checklist p{
+    padding-right:80px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.checklist span{
+    color: #7E92AC;
+    font-size: 13px;
+    display: inline-block;
+    width: calc(100% - 85px);
+}
+
+
+.mac-book{
+    padding-left: 20px;
+    width: 50%;
+}
+.checklist button{
+    margin-top: 10px;
+    background-color: #255AFF;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding:40px 0;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.container-slider{
+    background-color: #FBFCFE;
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single{
+    height: 330px;
+    
+    float: left;
+    box-shadow: 0px 20px 40px #2426721C;
+    max-height: 350px;
+    text-align: center;
+    padding:13px;
+    border-radius:10px;
+  
+}
+
+.container-slider-single p{
+    margin:15px 20px;
+    color:#7E92AC;
+    font-size: 14px;
+    text-align: justify;
+  
+}
+.container-slider-single h5{
+    color: #515a64;
+}
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #255AFF;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
+@media screen and (max-width: 768px) {
+
+    .lista-beneficios,.img-beneficios{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .diferenciais{
+        
+        flex-wrap: wrap;
+       
+    }
+    .box-diferenciais{
+        
+        width:100%;
+        margin-right: 0;
+        
+    }
+
+   
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.marcas img{
+        max-width: 300px;
+        width:100%;
+    }
+}
+.formulario{
+    width: 100%;
+    height: 600px;
+    display: block;
+    text-align: center;
+}
+.conta{ margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+ form{
+    margin: 100px auto;
+    width: 800px;
+}
+.center form input[type=text],
+.center form input[type=email]
+{
+    color: rgb(155, 153, 153);
+    font-size: 20px;
+    margin: 10px;
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #c3cce8;
+    background-color: #FCFDFF;
+
+}/**** inputs nome e email***/
+
+.center form textarea{
+     width: 100%;
+     max-width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    resize:none;
+   
+    border: 1px solid #c3cce8;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #FCFDFF;
+}
+.center form input[type=submit]{
+    width:100%;
+    max-width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0F3FD3;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}/*text- aera**/
+
+.center form input[type=submit],
+.center form input[type=text],
+.center form input[type=email],
+.center form textarea:focus{
+    outline: 0;
+}
+.pe{
+    width: 100%;
+    margin-top: 100px;
+  
+   
+}
+.lt-footer{
+    margin: 0 30px;
+   
+    padding:30px 0;
+    background: #255AFF;
+    color:white;
+}
+.text-footer{
+    width: 50%;
+    
+}
+
+.items-menu-mobile{
+    width:50%;
+    text-align: right;
+    display: none;
+}
+
+.items-menu-mobile i{
+    color:white;
+    position: relative;
+    top:25px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+/*reponsibilidade do site para moblie inicio*/
+@media screen and (max-width: 768px){
+
+    .items-menu-mobile{
+        display: block;
+       
+    }
+
+    .menu-mobile{
+        border-radius: 10px;
+        margin:15px 0 0 50%;
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left:0;
+        top:65px;
+        background-color: white;
+        width:50%;
+        padding:15px 0;
+        text-align: center;
+    }
+
+    .show{
+        opacity: 1;
+    }
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin:8px 0;
+        color:rgb(40,40,40);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom:1px solid rgb(40,40,40);
+        padding:8px 0;
+    }
+   .iten-menu{
+        display: none;
+    }
+
+
+    
+
+    .lt-footer .iten-menu{
+        width:100%;
+        text-align: center;
+    }
+    .lt-footer .iten-menu a{
+        display: block;
+        margin:10px 0;
+        text-align: center;
+    }
+    .text-footer{
+        width:100%;
+        text-align: center;
+        padding:8px 0;
+    }
+
+
+    .icones{margin-right: 0; width: 100%;}
+
+    .propaganda .center img{width:100%; max-width: 300px; margin: 0 auto;}
+
+    .blocos{  
+       flex-wrap: wrap;}
+       .coneteine-icon{ display:block;}
+       .checklist{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .checklist h2{
+        text-align: center;
+    }
+    .checklist button{
+        margin: 20px 60px;
+    }
+    .mac-book img{
+        width: 100%;
+        width: 350px;
+        margin: 20px 50px;
+  
+    }
+    .checklist img{
+        margin-top: -30px;
+    }
+    .conta{ margin: 20px;
+        font-size: 40px;
+    }
+
+.center form input[type=text],
+.center form input[type=email]{
+   
+    
+    max-width: 400px;
+   
+  
+
+}
+.center form textarea{
+    
+    max-width: 400px;
+   
+}
+.center form input[type=submit]{
+   width: 400px;
+  
+}
+
+
+}
+/*final do condigo moblie----*/
